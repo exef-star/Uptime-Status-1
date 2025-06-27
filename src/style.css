@@ -43,6 +43,13 @@
   scrollbar-width: none;  /* Firefox */
 }
 
+.flex-1 p-3 sm:p-8 {
+  background: url(https://pic1.imgdb.cn/item/685e9dee58cb8da5c878dfcf.webp) top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
 /* 添加通用卡片样式 */
 @layer components {
   /* 基础卡片样式 */
@@ -81,4 +88,5 @@
 #app {
   width: 100%;
   margin: 0 auto;
+  backdrop-filter: blur(10px);
 }
