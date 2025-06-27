@@ -32,18 +32,9 @@
   }
 }
 
-@import("https://chinese-fonts-cdn.deno.dev/packages/yozai/dist/Yozai-Regular/result.css")
-
 /* 隐藏滚动条 */
 ::-webkit-scrollbar {
   display: none;
-}
-
-body {
-  background: url(https://pic1.imgdb.cn/item/66893e43d9c307b7e96505d9.jpg) top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
 }
 
 * {
