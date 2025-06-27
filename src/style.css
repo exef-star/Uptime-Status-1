@@ -32,13 +32,22 @@
   }
 }
 
+@import("https://chinese-fonts-cdn.deno.dev/packages/yozai/dist/Yozai-Regular/result.css")
+
 /* 隐藏滚动条 */
 ::-webkit-scrollbar {
   display: none;
 }
 
+body {
+  background: url(https://i.p-i.vip/68/20250525-6832c5cced392.jpg) top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
 * {
-  font-family: HarmonyOS_Regular,MiSans,HarmonyOS Sans SC,sans-serif; /* 字体 */
+  font-family: Yozai,Yozai,Yozai,sans-serif; /* 字体 */
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
